@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    border: 2px solid violet;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100vh 100vh 100vh 100vh 100vh 100vh;
+    grid-template-areas:
+        "header"
+        "section1"
+        "section2"
+        "section3"
+        "section4"
+        "section5"
+        "section6"
+        "footer"
+}
