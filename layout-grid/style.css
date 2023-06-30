@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-   /* border: 2px solid violet;    */
+ /* border: 2px solid violet;   */
 }
 
 html,
@@ -113,10 +113,11 @@ padding: 4%;
     height: 25vh;
     display: flex;
     flex-direction: row;
-    padding: 4%;
+    /* padding: 4%; */
 }
 .description-left{
     width: 50vw;
+    padding: 4%;
 }
 .p-left{
     color: #fafafa;
@@ -130,22 +131,28 @@ padding: 4%;
     width: 50vw; 
     display: flex;
      flex-direction: column;
-    justify-content: center; 
+    justify-content:flex-start; 
     /* align-items: center;  */
+    
 }
+
 .p-right{
+
+    height: 8vh;
     color: #a8a6a6;
+  
 }
 .p-right-btn{
-color: #fafafa;
+   color: #fafafa;
    background-color: #5f5f60;
-   width: 100px;
-   height: 80px;
+   width: 80px;
+   height: 40px;
    border: none;
    border-radius:4px;
    
 }
 
+/* ---------------------section2---------------------------- */
 .section2 {
     background-color: yellow;
     grid-area: section2;
@@ -156,15 +163,28 @@ color: #fafafa;
     grid-area: section3;
 }
 
+/* ---------------------section4------------------------ */
 .section4 {
     background-color: rgb(191 176 156);
     grid-area: section4;
     padding: 0% 8%;
 }
+.middle-container{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-section4{
+    height: 50vh;
+    color: #fafafa;
+    font-size: 60px;
+    padding: 4%; 
+}
 .p-below{
     height: 25vh;
     color: rgb(191 176 156);
-    font-size: 280px;
+    font-size: 3.5rem;
     overflow: hidden;
     display: block;
    
