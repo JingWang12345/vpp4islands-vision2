@@ -21,7 +21,7 @@ body {
    
     margin: auto;
    background-color: rgb(0,0,0);
-   border-radius: 20px;
+   /* border-radius: 20px; */
 }
 .nav-bar{
 display: flex;

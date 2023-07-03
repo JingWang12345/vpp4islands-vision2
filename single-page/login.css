@@ -20,7 +20,7 @@ body {
     width: 84%;
     height: 100vh;
     background-color: rgb(0, 0, 0);
-    border-radius: 20px;
+    /* border-radius: 20px; */
     margin: auto;
 
 }
